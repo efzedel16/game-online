@@ -32,12 +32,12 @@ declare(strict_types=1);
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Insert Data Games</title>
+    <title>Change Data Games</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body class="container text-center">
 
-<h1 class="my-5">Insert Data Games</h1>
+<h1 class="my-5">Change Data Games</h1>
 
 <a class="btn btn-primary mb-3" href="../../index.php">Back</a>
 
@@ -62,7 +62,7 @@ declare(strict_types=1);
         <input type="text" class="form-control" id="poster" placeholder="Poster" name="poster" required>
         <label for="poster">Poster</label>
     </div>
-    <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+    <button type="submit" class="btn btn-primary" name="submit">Change</button>
 </form>
 
 
