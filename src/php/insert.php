@@ -38,7 +38,7 @@ declare(strict_types=1);
 
     <h1 class="my-5">Insert Data Games</h1>
 
-    <a class="btn btn-primary mb-3" href="index.php">Back</a>
+    <a class="btn btn-primary mb-3" href="../../index.php">Back</a>
 
     <form action="" method="post">
         <div class="form-floating mb-3">

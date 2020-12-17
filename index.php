@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
     //connect file
-    require 'funcs.php';
+    require 'src/php/funcs.php';
     $game = query('SELECT * FROM game');
 ?>
 
@@ -21,7 +21,7 @@ declare(strict_types=1);
     <h1 class="my-5">Daftar Game Online</h1>
 
     <a class="btn btn-primary mb-3"
-       href="insert.php">Insert Data Games
+       href="src/php/insert.php">Insert Data Games
     </a>
 
     <table class="table table-bordered w-100" border="1" cellpadding="10" cellspacing="0">
@@ -43,7 +43,7 @@ declare(strict_types=1);
                 <a class="btn btn-warning"
                    href="">Change</a>
                 <a class="btn btn-danger"
-                   href="delete.php?id=<?= $row['id']; ?>"
+                   href="src/php/delete.php?id=<?= $row['id']; ?>"
                    onclick="">Delete</a>
             </td>
             <td>
