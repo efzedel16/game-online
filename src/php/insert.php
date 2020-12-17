@@ -1,27 +1,26 @@
 <?php
 declare(strict_types=1);
 
-    require 'funcs.php';
+require 'funcs.php';
 
-    //check data succes / failed
-    if (isset($_POST['submit'])) {
-        if (insert($_POST) > 0) {
-            echo "
+//check data succes / failed
+if (isset($_POST['submit'])) {
+    if (insert($_POST) > 0) {
+        echo "
                 <script>
                     alert('success insert');
-                    document.location.href = 'index.php';
+                    document.location.href = '../../index.php';
                 </script>
                 ";
-        } else {
-            echo "
+    } else {
+        echo "
                 <script>
                     alert('failed insert');
-                    document.location.href = 'index.php';
+                    document.location.href = '../../index.php';
                 </script>
                 ";
-        }
     }
-
+}
 ?>
 
 <!doctype html>
@@ -36,9 +35,9 @@ declare(strict_types=1);
 </head>
 <body class="container text-center">
 
-    <h1 class="my-5">Insert Data Games</h1>
+<h1 class="my-5">Insert Data Games</h1>
 
-    <a class="btn btn-primary mb-3" href="../../index.php">Back</a>
+<a class="btn btn-primary mb-3" href="../../index.php">Back</a>
 
     <form action="" method="post">
         <div class="form-floating mb-3">

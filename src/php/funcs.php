@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
     //connect databases
-    $conn = mysqli_connect('localhost', 'root', '', 'games');
+    $conn = mysqli_connect('localhost', 'root','', 'games');
 
     //func query
     function query($query) {
@@ -24,7 +24,7 @@ declare(strict_types=1);
         $poster = htmlspecialchars($data['poster']);
 
         //query insert data
-        $query = "INSERT INTO game VALUES ('$name', '$developer', '$publisher', '$release_date', '$poster')";
+        $query = "INSERT INTO game VALUES ('', '$name', '$developer', '$publisher', '$release_date', '$poster')";
         mysqli_query($conn, $query);
 
         return mysqli_affected_rows($conn);
