@@ -52,7 +52,7 @@ declare(strict_types=1);
                 </a>
             </td>
             <td>
-                <img src="img/<?= $row["poster"] ?>"
+                <img src="src/img/<?= $row["poster"] ?>"
                      alt="<?= $row["name"]; ?>"
                      width="100px">
             </td>
